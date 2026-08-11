@@ -1,16 +1,29 @@
 print("BOLETIM DE NOTAS")
 
-nome = input("Escreva o nome do(a) aluno(a): ")
-discplina = input("Escreva o nome da disciplina: ")
-nota = float(input("Digite a nota da disciplina: "))
+nome = input("\nEscreva o nome do(a) aluno(a): ")
+curso = input("Escreva o nome do curo: ")
+disciplina = input("Escreva o nome da disciplina: ")
+semestre = int(input("Digite o semestre em que está: "))
+nota1 = float(input("Digite a nota do primeiro bimestre da disciplina: "))
+nota2 = float(input("Digite a nota do segundo bimestre da disciplina: "))
 
-if nota >= 60 and nota < 101:
-    print("Aprovado")
+media = (nota1 + nota2) / 2
 
-elif nota > 0 and nota < 40:
-   print("Reprovado")
+print("\nNome: ", nome)
+print("Curso: ", curso)
+print("Disciplina: ", disciplina)
+print(semestre, "º Semestre")
+print("Média: ", media)
+
+
+
+if media >= 60 and media < 101:
+    print("\nAprovado")
+
+elif media > 0 and media < 40:
+   print("\nReprovado")
    
-elif nota >= 40 and nota < 60:
-    print("Recuperação")
+elif media >= 40 and media < 60:
+    print("\nRecuperação")
 else:
-    print("Nota inválida")
+    print("\nNota inválida")
