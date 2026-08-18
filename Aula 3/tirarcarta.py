@@ -15,3 +15,4 @@ if idadep3 >= 18:
   print("Terceira idade pode votar!")
 else: 
   print("Terceira idade não pode votar!")
+##Dava pra facilitar, mas o professor preferia assim
