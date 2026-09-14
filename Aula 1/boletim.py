@@ -27,3 +27,4 @@ elif media >= 40 and media < 60:
     print("\nRecuperação")
 else:
     print("\nNota inválida")
+##NÃO MANDAR
