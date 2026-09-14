@@ -8,3 +8,4 @@ elif cnh.lower() == "sim" and idade <= 18:
   print("Não minta!")
 else:
   print("Não pode dirigir")
+##MANDAR
