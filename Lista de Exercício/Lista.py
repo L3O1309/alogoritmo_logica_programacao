@@ -376,14 +376,6 @@ def ex28():
   opcao_escolhida = int(input("Escolha uma forma de pagamento de acordo com o número antes da forma (1, 2, 3, 4): "))
   processar_pagamento(opcao_escolhida)
 
-
-def ex29():
-  print("Executando exercício 29")
-
-
-def ex30():
-  print("Executando exercício 30")
-
 escolha = int(input("Selecione um número de exercício: "))
 match escolha:
   case 1:
@@ -442,9 +434,5 @@ match escolha:
     ex27()
   case 28:
     ex28()
-  case 29:
-    ex29()
-  case 30:
-    ex30()
   case _:
     print("Exercício inválido!")
