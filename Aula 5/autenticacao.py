@@ -4,6 +4,6 @@ senha = input("Digite sua senha: ")
 confirm = input(f"Prezado, {usuario}, digite sua senha novamente para confirmação: ")
 
 if confirm == senha:
-  print(f"Seja Bem-Vindo(a) ao sistema Sr. {usuario}")
+  print(f"Seja Bem-Vindo(a) ao sistema Sr(a). {usuario}")
 else:
   print("Algo deu errado, tente novamente!")
